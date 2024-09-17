@@ -10,7 +10,7 @@ int main()
     cout << obj1.getAnzahlObjekte() << endl;
 
     Girokonto obj2("Dabogert", 100);
-    cout << obj1.getAnzahlObjekte() << endl;
+    cout << obj1.getAnzahlObjekte() << endl; // Besser: Girokonto::getAnzahlObjekte();
     cout << obj2.getAnzahlObjekte() << endl;
     obj1.~Girokonto();
     cout << obj2.getAnzahlObjekte() << endl;
