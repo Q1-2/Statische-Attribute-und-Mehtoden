@@ -6,7 +6,7 @@ class Girokonto
 {
 private:
 	// statisches Klassenattribut
-	static int anzahl; //Gemeinsamer Zähler aller erstellten Objekte.
+	static int anzahl; //Gemeinsamer ZÃ¤hler aller erstellten Objekte.
 
 	string besitzer;
 	int kontoNr;
@@ -21,7 +21,7 @@ public:
 	void setKontostand(double derKontostand);
 	
 
-	int getAnzahlObjekte(); // NEU - Gibt die Anzahl der aktuellen Objekte zurück
+	static int getAnzahlObjekte(); // NEU - Gibt die Anzahl der aktuellen Objekte zurÃ¼ck
 	string getBesitzer();
 	int getKontoNr();
 	double getKontostand();
